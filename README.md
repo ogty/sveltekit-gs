@@ -52,7 +52,7 @@ $ npm install --save svelte-preprocess
 
 ### ファイルとフォルダー
 
- - `global.css`: Djangoでの`base.html`に使うCSS
+ - `global.css`: 全てのファイルに適応されるCSS
  - `App.svelte`: 土台（componentsをimportして配置するだけ）
  - `components/*.svelte`: メインパーツを管理
 
@@ -80,6 +80,7 @@ $ npm install --save svelte-preprocess
  - `<Path>`: 相対か絶対。多分svelteは拡張子必要。jsはいらない（多分）
  - 引数の渡し方は`<Name type="submit" disabled={xxx}></Name>`
  - 引数の受け取り方は`<button {type} {disabled}><slot></slot></button>`
+ - 
 ***
 
 ## 例
