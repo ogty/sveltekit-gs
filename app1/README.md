@@ -1,0 +1,1 @@
+[Svelte Crash Course 2021](https://youtu.be/3TVy6GdtNuQ)
