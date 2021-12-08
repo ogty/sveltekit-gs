@@ -53,8 +53,8 @@ $ npm install --save svelte-preprocess
 ### ファイルとフォルダー
 
  - `global.css`: Djangoでの`base.html`に使うCSS
- - `App.svelte`: SPAのベース（componentsをimportして配置するだけ）
- - `components/*.svelte`: SPAで使うメインパーツ
+ - `App.svelte`: 土台（componentsをimportして配置するだけ）
+ - `components/*.svelte`: メインパーツを管理
 
 
 ```
