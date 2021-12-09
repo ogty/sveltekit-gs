@@ -9,7 +9,7 @@
 
 ```bash
 # Svelte
-$ npm install svelte@next <app-name>
+$ npm init svelte@next <app-name>
 $ # Press enter and setting 
 $ cd <app-name>
 $ npm install
