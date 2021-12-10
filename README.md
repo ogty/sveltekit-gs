@@ -12,13 +12,23 @@
 $ npm init svelte@next <app-name>
 $ # Press enter and setting 
 $ cd <app-name>
-$ npm install
+$ npm i
 $ npm run dev
 
 # Tailwindcss
 $ npx svelte-add tailwindcss
-$ npm install --save svelte-preprocess
+$ npm i --save svelte-preprocess
 ```
+
+### OR
+
+```bash
+$ npx degit sveltejs/template <app-name>
+$ cd <app-name>
+$ npm i
+```
+
+`i=install`
 
 ### Tailwindcss Example
 
