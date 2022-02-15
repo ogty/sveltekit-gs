@@ -81,7 +81,7 @@ $ npm i
 
 ***
 
-### Svelte書き方
+### How to write Svelte
 
  - `import <Name> from '<Path>'`
  - `export let <Name>`
