@@ -1,4 +1,4 @@
-# Svelte Getting Started
+# Svelte Kit Getting Started
 
  - [SVELTE](https://svelte.dev/)
  - [SVELTEKIT](https://kit.svelte.dev/)
@@ -90,7 +90,7 @@ $ npm i
  - `<Path>`: 相対か絶対。多分svelteは拡張子必要。jsはいらない（多分）
  - 引数の渡し方は`<Name type="submit" disabled={xxx}></Name>`
  - 引数の受け取り方は`<button {type} {disabled}><slot></slot></button>`
- - 
+
 ***
 
 ## 例
