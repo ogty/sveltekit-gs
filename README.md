@@ -60,11 +60,11 @@ $ npm i
 
 ***
 
-### ファイルとフォルダー
+### File and Folder
 
- - `global.css`: 全てのファイルに適応されるCSS
- - `App.svelte`: 土台（componentsをimportして配置するだけ）
- - `components/*.svelte`: メインパーツを管理
+ - `global.css`: CSS applied to all files
+ - `App.svelte`: Foundation (just import and place components)
+ - `components/*.svelte`: Manage main parts
 
 
 ```
@@ -85,15 +85,15 @@ $ npm i
 
  - `import <Name> from '<Path>'`
  - `export let <Name>`
- - データ受け取る側: `<slot></slot>`で展開
- - データ呼ぶ側: `<Name></Name>`で展開
- - `<Path>`: 相対か絶対。多分svelteは拡張子必要。jsはいらない（多分）
- - 引数の渡し方は`<Name type="submit" disabled={xxx}></Name>`
- - 引数の受け取り方は`<button {type} {disabled}><slot></slot></button>`
+ - Data receiver: expand with `<slot></slot>`
+ - Data caller: expand with `<Name></Name>`
+ - `<Path>`: Relative or absolute. Maybe svelte needs an extension, js doesn't (maybe).
+ - The arguments are passed as`<Name type="submit" disabled={xxx}></Name>`
+ - The argument is received by`<button {type} {disabled}><slot></slot></button>`
 
 ***
 
-## 例
+## Example
 
 #### App.svelte
 
